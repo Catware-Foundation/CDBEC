@@ -16,7 +16,7 @@ gensym = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*
 _IV_ = b"CATDBECENCRYPTED"
 
 # debug_mode содержит булево значение, отвечающее за включение совместимости с режимом отладки. Если True, то обработанное в коде программы исключение будет вызываться намеренно.
-debug_mode = True
+debug_mode = False
 
 
 def encrypt(dct, key):
